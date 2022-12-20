@@ -1,0 +1,16 @@
+---
+stages:
+  - test
+  - release
+
+.go_template_defaults:
+  stage: test
+.semver_template_defaults:
+  stage: release
+
+variables:
+  SEMVER_PREFIX: v
+
+include:
+  - remote: https://gitlab.com/bonsai-oss/organization/ci-templates/-/raw/main/templates/language/go.yml
+  - remote: https://gitlab.com/bonsai-oss/organization/ci-templates/-/raw/main/templates/release/semver.yml
