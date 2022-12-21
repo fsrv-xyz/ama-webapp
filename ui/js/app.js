@@ -1,6 +1,6 @@
 const submitForm = () => {
     const textInput = document.getElementById('text-input').value;
-    document.getElementById('result-text').innerHTML = '<div class="loader"></div>';
+    document.getElementById('result-text').innerHTML = '<div class="spinner"><div class="cube1"></div><div class="cube2"></div></div>';
     fetch('/api', {
         method: 'POST',
         headers: {

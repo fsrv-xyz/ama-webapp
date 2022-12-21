@@ -5,12 +5,16 @@
     <title>AMA</title>
     <script src="js/app.js"></script>
     <link href="css/styleshee.css" rel="stylesheet">
+    <link href="css/spinner.css" rel="stylesheet">
 </head>
 <body>
-<h1>AMA</h1>
-<textarea id="text-input" rows="10" placeholder="Enter something" type="text"> </textarea>
-<div id="result">
-    <pre id="result-text"></pre>
+<div style="margin: 5vh">
+    <div id="headline">> AskMeAnything <</div>
+    <textarea id="text-input" placeholder="Enter something; submit with shift+Enter" rows="10" type="text"></textarea>
+    <div id="submit-button" onclick="submitForm()"><< submit >></div>
+    <div id="result">
+        <pre id="result-text"></pre>
+    </div>
 </div>
 </body>
 </html>
