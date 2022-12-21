@@ -55,5 +55,5 @@ func main() {
 	router.Path("/api").Methods(http.MethodPost).HandlerFunc(OpenAIHandlerBuilder(token))
 	router.PathPrefix("/").Methods(http.MethodGet).Handler(http.FileServer(http.FS(sub)))
 
-	webbase.ServeRouter("ama", router, webbase.WithoutServiceEndpoint())
+	webbase.ServeRouter("ama", router)
 }
