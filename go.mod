@@ -1,17 +1,17 @@
 module ama-webapp
 
-go 1.19
+go 1.21
 
 require (
 	github.com/bonsai-oss/jsonstatus v0.1.0
-	github.com/bonsai-oss/webbase v1.3.4
+	github.com/bonsai-oss/webbase v1.3.5
 )
 
 require (
 	github.com/beorn7/perks v1.0.1 // indirect
 	github.com/bonsai-oss/mux v1.8.1 // indirect
 	github.com/cespare/xxhash/v2 v2.2.0 // indirect
-	github.com/getsentry/sentry-go v0.22.0 // indirect
+	github.com/getsentry/sentry-go v0.23.0 // indirect
 	github.com/golang/protobuf v1.5.3 // indirect
 	github.com/google/uuid v1.3.0 // indirect
 	github.com/matttproud/golang_protobuf_extensions v1.0.4 // indirect
