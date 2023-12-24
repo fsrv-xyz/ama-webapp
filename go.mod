@@ -4,7 +4,7 @@ go 1.21
 
 require (
 	github.com/bonsai-oss/jsonstatus v0.1.0
-	github.com/bonsai-oss/webbase v1.3.6
+	github.com/bonsai-oss/webbase v1.3.7
 )
 
 require (
@@ -13,7 +13,7 @@ require (
 	github.com/cespare/xxhash/v2 v2.2.0 // indirect
 	github.com/getsentry/sentry-go v0.25.0 // indirect
 	github.com/golang/protobuf v1.5.3 // indirect
-	github.com/google/uuid v1.4.0 // indirect
+	github.com/google/uuid v1.5.0 // indirect
 	github.com/matttproud/golang_protobuf_extensions v1.0.4 // indirect
 	github.com/prometheus/client_golang v1.17.0 // indirect
 	github.com/prometheus/client_model v0.4.1-0.20230718164431-9a2bf3000d16 // indirect
