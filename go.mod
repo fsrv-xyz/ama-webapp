@@ -4,7 +4,7 @@ go 1.21
 
 require (
 	github.com/bonsai-oss/jsonstatus v0.1.0
-	github.com/bonsai-oss/webbase v1.3.7
+	github.com/bonsai-oss/webbase v1.4.0
 )
 
 require (
